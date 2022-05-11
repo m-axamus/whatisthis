@@ -1,9 +1,3 @@
 
 *.pyc
 testing.py
-what.egg-info/dependency_links.txt
-what.egg-info/PKG-INFO
-what.egg-info/SOURCES.txt
-what.egg-info/top_level.txt
-dist/what-0.1.0.tar.gz
-dist/what-0.1.0-py3-none-any.whl
