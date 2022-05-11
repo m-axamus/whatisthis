@@ -1,4 +1,4 @@
-def isFloat(num):
+def isFlt(num):
     try:
         float(num)
         return True
@@ -12,18 +12,18 @@ def isInt(num):
     except ValueError:
         return False
 
-def isStr(v, str):
-    if v == 1:
-        if str == type(str):
-            return True
-        else:
-            return False
-    if v == 2:
-        try:
-            float(str)
-            return False
-        except ValueError:
-            return True
+def isStr(str):
+    if str == type(str):
+        return True
+    else:
+        return False
+
+def isTxt(txt):
+    try:
+        float(txt)
+        return False
+    except ValueError:
+        return True
 
 def isLst(list):
     try:
