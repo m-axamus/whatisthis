@@ -12,7 +12,7 @@ def isInt(num):
     except ValueError:
         return False
 
-def isString(v, str):
+def isStr(v, str):
     if v == 1:
         if str == type(str):
             return True
@@ -25,7 +25,7 @@ def isString(v, str):
         except ValueError:
             return True
 
-def isList(list):
+def isLst(list):
     try:
         list[0]
         return True
