@@ -12,8 +12,8 @@ def isInt(num):
     except ValueError:
         return False
 
-def isStr(str):
-    if str == type(str):
+def isStr(string):
+    if type(string) == str:
         return True
     else:
         return False

@@ -11,7 +11,7 @@ what.isInt(num)     checking if the variable is an integer
 
 what.isLst(list)    checking if the variable is a list
 
-what.isStr(str)     checking if the variable is a string
+what.isStr(string)     checking if the variable is a string
 
 what.isTxt(txt)     checking if a variable contains text (anything but numbers)
 
