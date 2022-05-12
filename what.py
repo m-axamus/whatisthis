@@ -47,13 +47,16 @@ def isTpl(tpl):
         return False
 
 def isNum(num):
-    try:
-        int(num)
-        return True
-    except:
+    if type(num) != bool:
         try:
-            float(num)
+            int(num)
             return True
-        except ValueError:
-            return False
+        except:
+            try:
+                float(num)
+                return True
+            except ValueError:
+                return False
+    else:
+        return False
 
