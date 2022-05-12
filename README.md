@@ -3,7 +3,7 @@ Purpose - To provide capabilities to check what types of variable something is a
 
 
 
-Usage - import what
+Usage -
 
 what.isFlt(num)         checking if the variable is a float
 
@@ -15,10 +15,11 @@ what.isStr(string)      checking if the variable is a string
 
 what.isTxt(txt)         checking if a variable contains text (anything but numbers)
 
-what.isCmp(num)         Checking if the variable is complex
+what.isCmp(num)         checking if the variable is a complex number
 
-what.isNum(num)         Checking if the variable is a number (either float or int)
+what.isNum(num)         checking if the variable is a number (either float or int)
 
+what.isBol(bol)         checking if the variable is a boolean
 
 
 The plan is to turn this into a python package
