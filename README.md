@@ -17,6 +17,8 @@ what.isTxt(txt)         checking if a variable contains text (anything but numbe
 
 what.isCmp(num)         Checking if the variable is complex
 
+what.isNum(num)         Checking if the variable is a number (either float or int)
+
 
 
 The plan is to turn this into a python package

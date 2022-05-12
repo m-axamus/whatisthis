@@ -45,3 +45,15 @@ def isTpl(tpl):
         return True
     else:
         return False
+
+def isNum(num):
+    try:
+        int(num)
+        return True
+    except:
+        try:
+            float(num)
+            return True
+        except ValueError:
+            return False
+
