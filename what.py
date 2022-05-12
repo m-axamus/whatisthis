@@ -60,3 +60,8 @@ def isNum(num):
     else:
         return False
 
+def isBol(bol):
+    if type(bol) == bool:
+        return True
+    else:
+        return False
