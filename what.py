@@ -15,10 +15,6 @@ def isInt(num, m = 1):
     if m == 1:
         try:
             int(num)
-            if type(num) == float:
-                return False
-            else:
-                return True
         except ValueError:
             return False
     elif m == 2:
