@@ -1,9 +1,15 @@
-def isFlt(num):
-    try:
-        float(num)
-        return True
-    except ValueError:
-        return False
+def isFlt(num, m = 1):
+    if m == 1:
+        try:
+            float(num)
+            return True
+        except ValueError:
+            return False
+    if m == 2:
+        if type(num) == float:
+            return True
+        else:
+            return False
 
 def isInt(num):
     try:
@@ -60,8 +66,15 @@ def isNum(num):
     else:
         return False
 
-def isBol(bol):
-    if type(bol) == bool:
-        return True
-    else:
-        return False
+def isBol(bol, m = 1):
+    if m == 1:
+        if type(bol) == bool:
+            return True
+        else:
+            return False
+    if m == 2:
+        try:
+            bool(bol)
+            return True
+        except ValueError:
+            return False
