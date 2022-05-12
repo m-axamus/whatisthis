@@ -1,4 +1,6 @@
-Purpose - To provide capabilities to check what types of variable something is and return True or False.
+Purpose - To provide capabilities to check what types of variable something is and return True or False. 
+
+Can also check if a variable can be something else, e.g. if variable x is a float, but contains only the number 2, isInt(x) will return true.
 
 
 All methods (m) will default to 1, unless specified
@@ -7,7 +9,7 @@ Usage -
 
 what.isFlt(num, m)      m = 1, checking if the variable can be a float. m = 2, checking if the variable is a float
 
-what.isInt(num)         checking if the variable is an integer
+what.isInt(num)         m = 1, checking if the variable can be an integer. m = 2, checking if the variable is an integer
 
 what.isLst(list)        checking if the variable is a list
 
