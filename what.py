@@ -23,7 +23,6 @@ def isInt(num, m = 1):
         else:
             return False
 
-
 def isStr(string):
     if type(string) == str:
         return True
