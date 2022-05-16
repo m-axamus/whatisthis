@@ -80,3 +80,13 @@ def isBol(bol, m = 1):
             return True
         except ValueError:
             return False
+
+def lstThis(lst, app):
+    try:
+        lst.append(app)
+    except ValueError:
+        return False
+
+def doLst(file, lst):
+    for line in file:
+        lst.append("{}".format(line.strip()).split(','))
