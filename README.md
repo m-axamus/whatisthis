@@ -23,5 +23,8 @@ what.isNum(num)         checking if the variable is a number (either float or in
 
 what.isBol(bol, m)      m = 1, checking if the variable is a boolean. m = 2, checking if the variable can be booled (will return True for anything that isn't nothing or 0)
 
+what.lstThis(lst, app)  basically just appending the variable app to the variable lst, extremely situational
+
+what.doLst(file, lst)   splits the file into a blank list vairable (blank by default) file must be formatted a certain way available at example.txt
 
 The plan is to turn this into a python package

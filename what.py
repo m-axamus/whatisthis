@@ -87,6 +87,6 @@ def lstThis(lst, app):
     except ValueError:
         return False
 
-def doLst(file, lst):
+def doLst(file, lst = []):
     for line in file:
         lst.append("{}".format(line.strip()).split(','))
